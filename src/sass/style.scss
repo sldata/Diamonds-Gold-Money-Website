@@ -1,9 +1,7 @@
 @use './colors';
 @use './animations';
 
-@use './small';
-@use './medium';
-@use './large';
+
 
 *,
 *::before,
@@ -169,3 +167,6 @@ h1.company-name {
 		}
 	}
 }
+@import './small';
+@import './medium';
+@import './large';
