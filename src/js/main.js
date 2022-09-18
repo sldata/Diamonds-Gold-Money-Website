@@ -14,4 +14,7 @@ const showNav = () => {
    navMobile.classList.toggle('nav-mobile__active')
 }
 
+
+
+
 hamburgerBtn.addEventListener('click', showNav)
