@@ -235,7 +235,9 @@ h1.company-name {
 		&-three {
 			grid-row: 3/4;
 			grid-column: 1/-1;
+			
 		}
+		
 	}
 }
 
@@ -248,6 +250,7 @@ h1.company-name {
 		'box'
 		'box';
 	padding: 6em 2em;
+	
 
 	&__title {
 		grid-area: title;
@@ -287,6 +290,7 @@ h1.company-name {
 	}
 	&__bg-icon {
 		display: none;
+		z-index: -5;
 	}
 }
 
